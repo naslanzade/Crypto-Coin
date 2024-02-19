@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+.whyUs {
+  align-items: center;
+  flex: 0 0 auto;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+  margin-bottom: 48px !important;
+}
+
+.whyUs .heading {
+  text-align: center;
+}
+
+.whyUs .heading h1 {
+  font-size: 46px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.whyUs .heading p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #16d5ff;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.whyUs .card {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.whyUs .card .start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.whyUs .card .start .text-part {
+  padding-left: 24px !important;
+}
+
+.whyUs .card .start img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  flex-shrink: 0 !important;
+}
+
+.whyUs .card .start .text-part h5 {
+  margin-bottom: 16px !important;
+  font-weight: 500 !important;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+  line-height: 1.2;
+  color: #111;
+}
+
+.whyUs .card .start .text-part span {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #999;
+  font-family: "Roboto", sans-serif;
+}
