@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+.footer {
+  background-color: #f2f8fe !important;
+  height: max-content;
+}
+
+.footer .up-side {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  width: 70%;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+  margin-bottom: 48px !important;
+}
+
+.footer .up-side .logo-part {
+  width: 60%;
+}
+
+.footer .up-side .logo-part a {
+  text-decoration: none;
+}
+
+.footer .up-side .logo-part a img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer .up-side .logo-part p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+  line-height: 1.5;
+  color: #999;
+}
+
+.footer .up-side .newsletter h5 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  line-height: 1.2;
+  color: #111;
+  font-size: 20px;
+}
+
+.footer .up-side .newsletter p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+  line-height: 1.5;
+  color: #999;
+}
+
+.footer .up-side .newsletter .form-control {
+  background-color: rgba(0, 0, 0, 0) !important;
+  padding-left: 24px !important;
+  padding-right: 48px !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  width: 100% !important;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #999;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.footer .up-side .newsletter .signUp {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  margin-right: 0.5rem !important;
+  margin-top: 0.5rem !important;
+  background-color: #16d5ff;
+  border-color: #16d5ff;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.5;
+  position: absolute !important;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer .up-side .newsletter .signUp:hover {
+  border-color: #16d5ff;
+  background-color: #fff;
+  color: #16d5ff;
+}
+
+.footer .down-side {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .down-side h5 {
+  margin-bottom: 24px !important;
+  font-weight: 500 !important;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+  color: #111;
+  margin-top: 0;
+}
+
+.footer .down-side p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+  line-height: 1.5;
+  color: #999;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.footer .down-side p i {
+  margin-right: 16px !important;
+}
+
+.footer .down-side .services p:hover {
+  color: #16d5ff;
+}
+
+.footer .down-side .quick p:hover {
+  color: #16d5ff;
+}
+
+.footer .down-side .follow .links {
+  display: flex;
+}
+
+.footer .down-side .follow .links p {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #16d5ff;
+  border-radius: 50%;
+  color: #16d5ff;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer .down-side .follow .links p i {
+  padding: 10px 12px;
+}
+
+
+.footer .down-side .follow .links p:hover{
+    color: #fff;
+    background-color: #16d5ff;
+}

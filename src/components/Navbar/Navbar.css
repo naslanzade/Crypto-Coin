@@ -69,26 +69,22 @@
   list-style: none;
 }
 
-.links .link-item {
-  width: 40px;
-  height: 40px;
+.links .link-item p {
+  width: 38px;
+  height: 38px;
   background-color: #f2f8fe !important;
   border-radius: 50%;
+  color: #16d5ff;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
-.links .link-item a {
-  text-decoration: none;
+.links .link-item p i {
+  padding: 10px 12px;
 }
 
-.links .link-item a i {
-  font-size: 16px;
-  color: #16d5ff !important;
-  padding: 10px;
-  transition: all 0.6s ease-in-out;
-  border-radius: 50%;
-}
-
-.links .link-item a i:hover {
+.links .link-item p:hover {
   background-color: #16d5ff !important;
   color: #fff !important;
 }

@@ -51,19 +51,19 @@ function Navbar() {
           <li className="nav-item">
             <ul className="links">
               <li className="link-item">
-                <a href="https://www.facebook.com/?locale=az_AZ">
+                <p>
                   <i className="fa-brands fa-facebook-f"></i>
-                </a>
+                </p>
               </li>
               <li className="link-item">
-                <a href="https://twitter.com/">
-                  <i className="fa-brands fa-twitter"></i>
-                </a>
+              <p>
+                <i class="fa-brands fa-twitter"></i>
+              </p>
               </li>
               <li className="link-item">
-                <a href="https://www.linkedin.com/home">
-                  <i className="fa-brands fa-linkedin-in"></i>
-                </a>
+              <p>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </p>
               </li>
             </ul>
           </li>
