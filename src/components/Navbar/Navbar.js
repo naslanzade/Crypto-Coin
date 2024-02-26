@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../assets/img/icon-1.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -28,12 +29,12 @@ function Navbar() {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <a href="" className="item" onClick={closeMobileMenu}>
+            <a href="/" className="item" onClick={closeMobileMenu}>
               Home
             </a>
           </li>
           <li className="nav-item">
-            <a href="" className="item" onClick={closeMobileMenu}>
+            <a href="/aboutmain" className="item" onClick={closeMobileMenu}>
               About
             </a>
           </li>
@@ -56,14 +57,14 @@ function Navbar() {
                 </p>
               </li>
               <li className="link-item">
-              <p>
-                <i class="fa-brands fa-twitter"></i>
-              </p>
+                <p>
+                  <i class="fa-brands fa-twitter"></i>
+                </p>
               </li>
               <li className="link-item">
-              <p>
-                <i class="fa-brands fa-linkedin-in"></i>
-              </p>
+                <p>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </p>
               </li>
             </ul>
           </li>

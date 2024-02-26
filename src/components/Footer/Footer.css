@@ -162,8 +162,115 @@
   padding: 10px 12px;
 }
 
+.footer .down-side .follow .links p:hover {
+  color: #fff;
+  background-color: #16d5ff;
+}
 
-.footer .down-side .follow .links p:hover{
-    color: #fff;
+@media screen and (min-width: 0px) and (max-width: 576px) {
+ 
+  .footer .up-side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer .up-side .logo-part {
+    width: 100%;
+  }
+  .footer .up-side .logo-part p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600 !important;
+    line-height: 1.5;
+    color: #999;
+    margin-left: 10px;
+  }
+
+  .footer .up-side .logo-part a {
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  .footer .up-side .logo-part a img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .footer .up-side .newsletter .form-control {
+    background-color: rgba(0, 0, 0, 0) !important;
+    padding-left: 24px !important;
+    padding-right: 48px !important;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    width: 70% !important;
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #999;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 3px;
+    outline: none;
+    margin-left: 10px;
+  }
+
+  .footer .up-side .newsletter .signUp {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    margin-right: 0.5rem !important;
+    margin-top: 0.5rem !important;
     background-color: #16d5ff;
+    border-color: #16d5ff;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5;
+    position:static !important;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-left: 10px;
+  
+  }
+
+  .footer .up-side .newsletter .signUp:hover {
+    border-color: #16d5ff;
+    background-color: #fff;
+    color: #16d5ff;
+  }
+
+  .footer .up-side .newsletter h5 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    line-height: 1.2;
+    color: #111;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .footer .up-side .newsletter p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600 !important;
+    line-height: 1.5;
+    color: #999;
+    margin-left: 10px;
+  }
+
+  .footer .down-side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
 }

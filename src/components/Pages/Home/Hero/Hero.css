@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 
 .container {
   background-color: #f2f8fe !important;
@@ -56,4 +56,57 @@
 .hero-header .right-side .explore:hover {
   background-color: #ffffff;
   color: #45ddff;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+ 
+  .hero-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-header .right-side h1 {
+    font-family: "Roboto" sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.2;
+    width: 90%;
+  }
+
+  .hero-header .right-side p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #999;
+    width: 90%;
+  }
+
+  .hero-header .left-side {
+    margin-top: 20px;
+  }
+
+  .hero-header .left-side img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .hero-header .right-side .explore {
+    color: #ffffff;
+    background-color: #45ddff;
+    transition: 0.5s;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 15px;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border: 2px solid #2dd9ff;
+    font-size: 14px;
+  }
+
+  .hero-header .right-side .explore:hover {
+    background-color: #ffffff;
+    color: #45ddff;
+  }
 }
