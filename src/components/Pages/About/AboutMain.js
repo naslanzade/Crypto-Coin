@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import image from "../../assets/img/about.png";
 import image2 from "../../assets/img/hero-2.png";
 import "./AboutMain.css";
-import WOW from "wowjs";
+import wow from "wowjs";
 
 function About() {
   return (
     <div>
       <div className="about">
         <div className="right-side">
-          <h1>About us</h1>
+          <h1 className="">About us</h1>
           <ul>
             <li>Home</li>
             <li>About us</li>

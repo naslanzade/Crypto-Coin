@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import WOW from "wowjs";
 import "../Service/Service.css";
 import firstImg from "../../../assets/img/icon-7.png";
 import secondImg from "../../../assets/img/icon-3.png";
@@ -8,13 +7,8 @@ import fourthImg from "../../../assets/img/icon-5.png";
 import fifthImg from "../../../assets/img/icon-2.png";
 import sixImg from "../../../assets/img/icon-8.png";
 
-class Service extends Component {
-  componentDidMount() {
-    new WOW.WOW({
-      live: false,
-    }).init();
-  }
-  render() {
+function Service(){
+ 
     return (
       <div>
         <div className="service">
@@ -93,7 +87,7 @@ class Service extends Component {
         </div>
       </div>
     );
-  }
+  
 }
 
 export default Service;

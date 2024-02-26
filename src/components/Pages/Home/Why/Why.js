@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import "../Why/Why.css";
-import WOW from "wowjs";
 import firstImg from "../../../assets/img/icon-7.png";
 import secondImg from "../../../assets/img/icon-6.png";
 import thirdImg from "../../../assets/img/icon-5.png";
@@ -8,13 +7,8 @@ import fourthImg from "../../../assets/img/icon-4.png";
 import fifthImg from "../../../assets/img/icon-3.png";
 import sixImg from "../../../assets/img/icon-8.png";
 
-class Why extends Component {
-  componentDidMount() {
-    new WOW.WOW({
-      live: false,
-    }).init();
-  }
-  render() {
+function Why(){
+ 
     return (
       <div>
         <div className="whyUs">
@@ -87,7 +81,7 @@ class Why extends Component {
         </div>
       </div>
     );
-  }
+  
 }
 
 export default Why;
