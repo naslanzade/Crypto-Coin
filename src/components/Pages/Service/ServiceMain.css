@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+.service {
+  align-items: center;
+  flex: 0 0 auto;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+  margin-bottom: 48px !important;
+  background-color: #f2f8fe !important;
+  margin-top: 50px;
+}
+
+.service .heading {
+  text-align: center;
+}
+
+.service .heading h1 {
+  font-size: 46px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.service .heading p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #16d5ff;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.service .card {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.service .card .start {
+  background-color: #fff !important;
+  padding: 48px !important;
+}
+
+.service .card .start h5 {
+  margin-bottom: 16px !important;
+  font-weight: 700 !important;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+  color: #111;
+}
+
+.service .card .start p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #999;
+  font-family: "Roboto", sans-serif;
+}
+
+.service .card .start a {
+  text-decoration: none;
+  color: #16d5ff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: all 0.5s ease-in-out;
+}
+
+.service .card .start a:hover {
+  color: #12aacc;
+}
+
+
+.service-main {
+  background-color: #f2f8fe !important;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+}
+
+.service-main .left-side img {
+  width: 100%;
+  height: auto;
+}
+
+.service-main .right-side h1 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 56px;
+  font-family: "Roboto", sans-serif;
+}
+
+.service-main .right-side ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0;
+}
+
+.service-main .right-side ul li {
+  list-style: none;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #999;
+  cursor: pointer;
+}
+
+.service-main .right-side li + li:before {
+  padding: 8px;
+  color: #999;
+  content: "/\00a0";
+}
+
+.service-main .right-side li:nth-child(2) {
+  color: #16d5ff;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px){
+
+  .service-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-main .left-side img {
+    width: 70%;
+    margin-left: 50px;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  .service .card {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+}

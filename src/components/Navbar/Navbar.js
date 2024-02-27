@@ -39,13 +39,8 @@ function Navbar() {
             </a>
           </li>
           <li className="nav-item">
-            <a href="" className="item" onClick={closeMobileMenu}>
+            <a href="/servicemain" className="item" onClick={closeMobileMenu}>
               Service
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="" className="item" onClick={closeMobileMenu}>
-              Contact
             </a>
           </li>
 

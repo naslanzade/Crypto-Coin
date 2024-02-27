@@ -1,16 +1,29 @@
 import React from "react";
-import "../Service/Service.css";
-import firstImg from "../../../assets/img/icon-7.png";
-import secondImg from "../../../assets/img/icon-3.png";
-import thirdImg from "../../../assets/img/icon-9.png";
-import fourthImg from "../../../assets/img/icon-5.png";
-import fifthImg from "../../../assets/img/icon-2.png";
-import sixImg from "../../../assets/img/icon-8.png";
+import "../Service/ServiceMain.css";
+import firstImg from "../../assets/img/icon-7.png";
+import secondImg from "../../assets/img/icon-3.png";
+import thirdImg from "../../assets/img/icon-9.png";
+import fourthImg from "../../assets/img/icon-5.png";
+import fifthImg from "../../assets/img/icon-2.png";
+import sixImg from "../../assets/img/icon-8.png";
+import image2 from "../../assets/img/hero-2.png";
 
 function Service(){
  
     return (
       <div>
+        <div className="service-main">
+        <div className="right-side">
+          <h1 className="">Services</h1>
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+          </ul>          
+        </div>
+        <div className="left-side">
+          <img src={image2} className="image" />
+        </div>
+      </div>
         <div className="service">
           <div className="heading">
             <h1>Services</h1>
